@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #c5c5c5;
+	/*background: url("sparky17.png") center no-repeat;*/
+	background: #fbfbfb center no-repeat;
+}
+div.scrollmenu {
+	background-color: #444;
+	overflow: auto;
+	white-space: nowrap;
+	text-align: center;
+	padding: 0;
+}
+
+div.scrollmenu a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+	background-color: #777;
+}
