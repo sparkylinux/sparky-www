@@ -16,12 +16,10 @@
 
 if [ "$1" = "uninstall" ]; then
 	rm -f /opt/sparky/index.html
-	rm -f /opt/sparky/logo.png
-	rm -f /opt/sparky/sparky-www-index.png
-	rm -f /opt/sparky/style.css
+	rm -fr /opt/sparky/data/
 else
-	if [ ! -d /opt/sparky ]; then
-		mkdir -p /opt/sparky
+	if [ ! -d /opt/sparky/data ]; then
+		mkdir -p /opt/sparky/data
 	fi
 	cp opt/* /opt/sparky/
 fi
