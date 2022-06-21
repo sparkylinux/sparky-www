@@ -1,7 +1,7 @@
 Sparky WWW
 This provides a customized start page of DuckDuckGo to your favorite web browser. The index page has to be set manually in your web browser after installation.
 
-Copyright (C) 2020-2021 Paweł Pijanowski
+Copyright (C) 2020-2022 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
